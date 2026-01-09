@@ -30,5 +30,51 @@ ul li a:hover {
   background-color: #c0c0c0;
 }
 body.scrolled-down header {
-  top: -100px; /* Or header height */
+  top: -100px;
+}
+.page-card{
+  display: inline-block;
+  height: auto;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  place-items: center;
+  background-color: pink;
+  border-radius: 250px;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+}
+
+.page-desc{
+  display: inline-block;
+  height: auto;
+  width: auto;
+  background-color: orange;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.card{
+  display: inline-block;
+  height: auto;
+  width: auto;
+  background-color: blanchedalmond;
+  border-radius: 0px;
+}
+
+.page-title{
+  display: inline-block;
+  height: auto;
+  width: auto;
+  background: linear-gradient(10deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  place-items: center;
+   align-items: center;
+  margin: auto;
+  justify-content: center;
 }
